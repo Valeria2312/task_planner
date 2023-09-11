@@ -1,23 +1,48 @@
 # task_planner
+
+
 Необходимо разработать веб-приложение, помогающее пользователям управлять своим временем.
 
 Основные функции:
-1.	Создание новых задач, с указанием следующей информации:
-•	название 
-•	описание (опционально)
-•	срок выполнения (дата и время)
-2.	Просмотр существующих задач с возможностью сортировки по дате создания или сроку выполнения.
-3.	Управление задачами:
-•	пометка задач как выполненных
-•	изменение задачи
-•	удаление задачи
-4.	Уведомления о задачах, срок выполнения которых приближается (например, в браузере или через e-mail).
 
+Создание новых задач, с указанием следующей информации: • название • описание (опционально) • срок выполнения (дата и время)
+Просмотр существующих задач с возможностью сортировки по дате создания или сроку выполнения.
+Управление задачами: • пометка задач как выполненных • изменение задачи • удаление задачи
+Уведомления о задачах, срок выполнения которых приближается (например, в браузере или через e-mail).
 Технические требования:
-1.	Фронтенд: Pure JavaScript или любой современный фреймворк (React, Vue, Angular и т.д.).
-2.	Хранение данных: используйте хранилище браузера (localStorage, sessionStorage и т.д.).
-3.	Уведомления: для уведомлений в браузере можно использовать Service Workers или сторонние библиотеки. 
 
+Фронтенд: Pure JavaScript или любой современный фреймворк (React, Vue, Angular и т.д.).
+Хранение данных: используйте хранилище браузера (localStorage, sessionStorage и т.д.).
+Уведомления: для уведомлений в браузере можно использовать Service Workers или сторонние библиотеки.
 Дополнительно:
-1.	Аутентификация: возможность регистрации и авторизации пользователей (JWT). Сымитируйте ответ от сервера: вызывайте какой-нибудь метод а-ля makeAuthRequest, возвращающий токены. Далее проверяйте эти токены при каждом действии. (мок-заглушка)
-2.	Многопользовательская работа: Пользователи могут делиться задачами и видеть задачи друг друга.
+
+Аутентификация: возможность регистрации и авторизации пользователей (JWT). Сымитируйте ответ от сервера: вызывайте какой-нибудь метод а-ля makeAuthRequest, возвращающий токены. Далее проверяйте эти токены при каждом действии. (мок-заглушка)
+Многопользовательская работа: Пользователи могут делиться задачами и видеть задачи друг друга.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
