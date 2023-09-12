@@ -3,6 +3,8 @@ import Button from "../Button/Button";
 import Tasks from "../Tasks/Tasks";
 import AddTask from "../AddTask/AddTask";
 import {useState}  from "react";
+import {AlertingService} from "../AlertingService/AlertingService";
+import {success} from "../../services/alerting_service";
 
 function Main() {
     const [item, setItem] = useState('')
@@ -38,8 +40,13 @@ function Main() {
     }
     return (
         <main className="main">
+            <AlertingService
+                horizontal={'right'}
+                vertical={'top'}
+            />
                 <AddTask item={item} setItem={setItem} items={items} setItems={setItems}/>
-                <Button onClick={(e) => { sortByNewDate(e) }} class={"btn-addTask"} style={{width: "180px",height: "60px", borderRadius: "20px",  background: "#517FF6"}} content={"Сортировка по дате создания"}/>
+                <Button onClick={(e) => { sortByNewDate(e)
+                    success('Success message', 3)}} class={"btn-addTask"} style={{width: "180px",height: "60px", borderRadius: "20px",  background: "#517FF6"}} content={"Сортировка по дате создания"}/>
                 <Button onClick={(e) => {
                     sortByDeadline(e)
                 }} class={"btn-addTask"} style={{width: "180px",height: "60px", borderRadius: "20px",  background: "#517FF6"}} content={"Сортировка по дедлайну"}/>
@@ -49,3 +56,6 @@ function Main() {
 }
 
 export default Main;
+
+
+//onClick={() => success('Success message', 3)}
