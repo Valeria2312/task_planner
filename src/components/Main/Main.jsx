@@ -40,13 +40,8 @@ function Main() {
     }
     return (
         <main className="main">
-            <AlertingService
-                horizontal={'right'}
-                vertical={'top'}
-            />
                 <AddTask item={item} setItem={setItem} items={items} setItems={setItems}/>
-                <Button onClick={(e) => { sortByNewDate(e)
-                    success('Success message', 3)}} class={"btn-addTask"} style={{width: "180px",height: "60px", borderRadius: "20px",  background: "#517FF6"}} content={"Сортировка по дате создания"}/>
+                <Button onClick={(e) => { sortByNewDate(e) }} class={"btn-addTask"} style={{width: "180px",height: "60px", borderRadius: "20px",  background: "#517FF6"}} content={"Сортировка по дате создания"}/>
                 <Button onClick={(e) => {
                     sortByDeadline(e)
                 }} class={"btn-addTask"} style={{width: "180px",height: "60px", borderRadius: "20px",  background: "#517FF6"}} content={"Сортировка по дедлайну"}/>
@@ -59,3 +54,4 @@ export default Main;
 
 
 //onClick={() => success('Success message', 3)}
+//success('Success message', 3)

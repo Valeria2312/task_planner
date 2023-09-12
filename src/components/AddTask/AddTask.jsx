@@ -10,7 +10,6 @@ function AddTask({items, setItems}) {
         localStorage.setItem("tasks", JSON.stringify(items))
     }, [items])
     const addTask = () => {
-        console.log(setInputValueData)
         if(inputValue && inputValueData) {
             const newTask = {
                 text: inputValue,
