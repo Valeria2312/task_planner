@@ -1,0 +1,7 @@
+.tasks {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.75);
+    height: 460px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,9 @@
+.main {
+    margin: 0 50px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+

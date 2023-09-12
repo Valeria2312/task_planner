@@ -4,4 +4,6 @@
     background: rgba(255, 255, 255, 0.50);
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 100%;
+    width: auto;
 }

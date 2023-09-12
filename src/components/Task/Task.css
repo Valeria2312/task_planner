@@ -1,0 +1,65 @@
+.inputTask {
+    display: grid;
+    grid-template-columns: 1fr 50px 50px;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #DBE2EF;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+.inputTaskLabel{
+     display: grid;
+     grid-template-columns: auto 1fr;
+     align-items: center;
+     padding: 12px 15px;
+     cursor: pointer;
+}
+
+.inputTaskCheckbox {
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+ }
+.inputTaskTitle {
+    padding: 5px;
+    line-height: 1.2;
+}
+.inputTaskTitleEdit {
+     font: 1rem/1em "Roboto", sans-serif;
+     border: none;
+     padding: 5px;
+     background: none;
+     box-shadow: 0 4px 0 -3px #3F72AF;
+ }
+.inputTaskSave, .inputTaskEdit, .inputTaskRemove {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: no-repeat center center;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity 0.3s;
+    margin: 0 auto;
+}
+.task-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.inputTaskSave, .inputTaskEdit, .inputTaskRemove + :hover {
+    opacity: 0.7;
+}
+
+.inputTaskEdit {
+    width: 28px;
+    height: 28px;
+     background: url("../../Images/svg/edit.svg") no-repeat center center;
+ }
+.inputTaskRemove {
+    width: 28px;
+    height: 28px;
+     background: url("../../Images/svg/remove.svg")no-repeat center center;
+ }
