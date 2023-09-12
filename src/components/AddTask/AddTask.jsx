@@ -1,8 +1,8 @@
 import "./AddTask.css"
 import Button from "../Button/Button";
 import {useEffect, useState} from "react";
-import CreateTask from '../../utils/AddTask'
-function AddTask({item, items, setItems, setItem}) {
+
+function AddTask({items, setItems}) {
     const [inputValue, setInputValue] = useState('');
     const [inputValueData, setInputValueData] = useState('');
 

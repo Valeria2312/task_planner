@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import Tasks from "../Tasks/Tasks";
 import AddTask from "../AddTask/AddTask";
 import {useState}  from "react";
-import {useEffect} from "react";
+
 function Main() {
     const [item, setItem] = useState('')
     const [items, setItems] = useState(JSON.parse(localStorage.getItem("tasks")) || [])

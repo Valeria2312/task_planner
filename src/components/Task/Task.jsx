@@ -31,7 +31,6 @@ function Task({ id, title, date,deadline, onDone, onEdited, onRemoved, onNotDone
                     isEditMode ? (
                         <input
                             value={value}
-                            // ref={editTitleInputRef}
                             onChange={(event) => {
                                 setValue(event.target.value)
                                 onEdited(event.target.value, id)

@@ -1,10 +1,7 @@
 import "./Tasks.css"
 import Task from "../Task/Task";
-import {tasks} from "../../utils/consts";
-import getTasks from "../../utils/getTasks";
-import {useEffect, useState} from "react";
 
-function Tasks({item,items,setItems,setItem}) {
+function Tasks({items,setItems}) {
     const removeTask = (id) => {
         const newItems = items.filter((item) => item.createdAt !== id)
         setItems(newItems)
