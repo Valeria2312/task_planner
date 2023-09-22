@@ -1,6 +1,6 @@
 import "./Tasks.css"
 import Task from "../Task/Task";
-import {useEffect, useState} from "react";
+import { useEffect } from "react";
 import {success} from "../../services/alerting_service";
 
 function Tasks({items,setItems}) {

@@ -3,8 +3,6 @@ import Button from "../Button/Button";
 import Tasks from "../Tasks/Tasks";
 import AddTask from "../AddTask/AddTask";
 import {useState}  from "react";
-import {AlertingService} from "../AlertingService/AlertingService";
-import {success} from "../../services/alerting_service";
 
 function Main() {
     const [item, setItem] = useState('')
