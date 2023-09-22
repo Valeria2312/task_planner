@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54f5787f.css",
+    "main.js": "/static/js/main.811dd2b5.js",
+    "static/media/Jost-Medium.ttf": "/static/media/Jost-Medium.6b59eccdfbb145802814.ttf",
+    "static/media/Jost-Light.ttf": "/static/media/Jost-Light.3190500f570b2fb9409f.ttf",
+    "static/media/Jost-Bold.ttf": "/static/media/Jost-Bold.d26e8e629f57716e90a0.ttf",
+    "index.html": "/index.html",
+    "static/media/remove.svg": "/static/media/remove.72e7c2825f59fd577e92.svg",
+    "static/media/edit.svg": "/static/media/edit.08641ca2b4fc2adddbac.svg",
+    "main.54f5787f.css.map": "/static/css/main.54f5787f.css.map",
+    "main.811dd2b5.js.map": "/static/js/main.811dd2b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54f5787f.css",
+    "static/js/main.811dd2b5.js"
+  ]
+}
